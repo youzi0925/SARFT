@@ -49,51 +49,48 @@
                             <li><a href="javascript:void(0)">注销</a></li>
                         </ul>
                     </div>
-                    <div class="logo-element">
-                        HP+
-                    </div>
                 </li>
-                <li class="active">
+                <li class="">
                     <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">探针管理</span>
                         <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse in">
-                        <li class="active"><a href="#" id="probe">探针列表</a></li>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="e"><a href="#" id="probebtn">探针列表</a></li>
                     </ul>
                 </li>
 
-                <li class="active">
+                <li class="">
                     <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">区域感知分析</span>
                         <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse in">
-                        <li class="active"><a href="#" id="areaPingBtn">区域ping感知对比</a></li>
-                        <li class="active"><a href="#" id="areaWebBtn">区域网页感知对比</a></li>
-                        <li class="active"><a href="#" id="areaGameBtn">区域游戏感知对比</a></li>
-                        <li class="active"><a href="#" id="areaVideoBtn">区域视频感知对比</a></li>
-                        <li class="active"><a href="#" id="areaTrendBtn">区域感知变化趋势</a></li>
-                        <li class="active"><a href="#" id="areaTotalBtn">区域总体感知对比</a></li>
+                    <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="#" id="areaPingBtn">区域ping感知对比</a></li>
+                        <li class=""><a href="#" id="areaWebBtn">区域网页感知对比</a></li>
+                        <li class=""><a href="#" id="areaGameBtn">区域游戏感知对比</a></li>
+                        <li class=""><a href="#" id="areaVideoBtn">区域视频感知对比</a></li>
+                        <li class=""><a href="#" id="areaTrendBtn">区域感知变化趋势</a></li>
+                        <li class=""><a href="#" id="areaTotalBtn">区域总体感知对比</a></li>
                     </ul>
                 </li>
-                <li class="active">
+                <li class="">
                     <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">BRAS感知分析</span>
                         <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse in">
-                        <li class="active"><a href="#" id="BRAS">（空）</a></li>
+                    <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="#" id="BRAS">（空）</a></li>
                     </ul>
                 </li>
-                <li class="active">
+                <li class="">
                     <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">门户感知统计</span>
                         <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse in">
-                        <li class="active"><a href="#" id="">（空）</a></li>
+                    <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="#" id="">（空）</a></li>
                     </ul>
                 </li>
-                <li class="active">
+                <li class="">
                     <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">故障诊断</span>
                         <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse in">
-                        <li class="active"><a href="#" id="villageQualityBtn">小区质量分段分析</a></li>
-                        <li class="active"><a href="#" id="userDiagnoseBtn">用户侧分段诊断</a></li>
-                        <li class="active"><a href="#" id="nowTestBtn">实时测试</a></li>
+                    <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="#" id="villageQualityBtn">小区质量分段分析</a></li>
+                        <li class=""><a href="#" id="userDiagnoseBtn">用户侧分段诊断</a></li>
+                        <li class=""><a href="#" id="nowTestBtn">实时测试</a></li>
                     </ul>
                 </li>
                 <!--<li>-->
@@ -183,7 +180,15 @@
 
 
 
-
+    $('#probebtn').click(function () {
+        tabs.addTab({
+            title: '探针列表',
+            id: 'probe',
+            icon: 'fa fa-user',
+            ajaxUrl: 'file.html'
+        });
+        $('.nav-tabs').scrollingTabs('refresh');
+    });
     $('#areaPingBtn').click(function () {
         tabs.addTab({
             title: '区域ping感知对比',   //标签页题目

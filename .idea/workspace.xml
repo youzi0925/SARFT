@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b4af4a-74e4-4572-8447-79c59d81c548" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-dynamic-tabs.css" afterPath="$PROJECT_DIR$/css/bootstrap-dynamic-tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dynamicData.html" afterPath="$PROJECT_DIR$/dynamicData.html" />
     </list>
     <ignored path="SARFT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/dynamicData.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1237">
-              <caret line="267" column="33" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -233,12 +232,12 @@
       <workItem from="1489367268549" duration="2577000" />
       <workItem from="1489370242942" duration="1797000" />
       <workItem from="1489390886671" duration="6388000" />
-      <workItem from="1489473102156" duration="64000" />
+      <workItem from="1489473102156" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29587000" />
+    <option name="totallyTimeSpent" value="29823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -437,7 +436,7 @@
     <entry file="file://$PROJECT_DIR$/dynamicData.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1237">
-          <caret line="267" column="33" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
