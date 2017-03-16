@@ -94,16 +94,16 @@
                     </ul>
                 </li>
                 <!--<li>-->
-                    <!--<a href="javascript:void(0)" id="doctorinformation"><i class="fa fa-files-o"></i> <span-->
-                            <!--class="nav-label"></span><span style="float: right"><img src="img/lock.png" width="20px"-->
-                                                                                           <!--height="20px"-->
-                                                                                           <!--class="lock"></span>-->
-                    <!--</a>-->
+                <!--<a href="javascript:void(0)" id="doctorinformation"><i class="fa fa-files-o"></i> <span-->
+                <!--class="nav-label"></span><span style="float: right"><img src="img/lock.png" width="20px"-->
+                <!--height="20px"-->
+                <!--class="lock"></span>-->
+                <!--</a>-->
                 <!--</li>-->
                 <!--<li>-->
-                    <!--<a href="javascript:void(0)" id="hisquery"><i class="fa fa-desktop"></i> <span class="nav-label">历史信息查询</span><span-->
-                            <!--style="float: right"><img src="img/lock.png" width="20px" height="20px" class="lock"></span>-->
-                    <!--</a>-->
+                <!--<a href="javascript:void(0)" id="hisquery"><i class="fa fa-desktop"></i> <span class="nav-label">历史信息查询</span><span-->
+                <!--style="float: right"><img src="img/lock.png" width="20px" height="20px" class="lock"></span>-->
+                <!--</a>-->
                 <!--</li>-->
 
             </ul>
@@ -120,7 +120,6 @@
         </div>
         <div class="wrapper wrapper-content">
             <div class="row">
-
 
             </div>
         </div>
@@ -159,25 +158,21 @@
 <script src="js/jquery.scrolling-tabs.js"></script>
 
 
-
 <script>
-
-
 
 
     var tabs = $('#tabs').bootstrapDynamicTabs();
 
-    $(window).load(function(){
+    $(window).load(function () {
         tabs.addTab({
-        title:'Home',
-        text:'Home tab content',
-        closable: false,
-        ID: 'home'
-    });
+            title: 'Home',
+            text: 'Home tab content',
+            closable: false,
+            ID: 'home'
+        });
     });
 
     $('.nav-tabs').scrollingTabs();  //滑动标签页
-
 
 
     $('#probebtn').click(function () {
@@ -185,7 +180,7 @@
             title: '探针列表',
             id: 'probe',
             icon: 'fa fa-user',
-            ajaxUrl: 'file.html'
+            ajaxUrl: 'AreaPing.html'
         });
         $('.nav-tabs').scrollingTabs('refresh');
     });
@@ -271,7 +266,6 @@
         $('.nav-tabs').scrollingTabs('refresh');
     });
     tabs.closeThis();   //关闭当前标签页
-
 
 
 </script>
